@@ -1,5 +1,5 @@
 const telegramBot = require("node-telegram-bot-api");
-const token = "5040886780:AAEEzgLJkLlpH6KAoBN2Yc3lgyd-64MRaqU";
+const token = "token";
 const bot = new telegramBot(token, {polling:true});
 bot.on('message', function (msg){
     const chatid = msg.chat.id;
